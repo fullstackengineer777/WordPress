@@ -1,1 +1,0 @@
-jQuery(document).ready(function(){jQuery("#ecommerce-wp-ui-tabs").tabs()});
