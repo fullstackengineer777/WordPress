@@ -1,0 +1,45 @@
+.banner-section h1, .game-section h2, .game-section h3{
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+}
+.banner-section p, .banner-section .wp-block-button__link{
+	font-family: 'Roboto', sans-serif;
+}
+.banner-section .block-editor-block-list__block{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+/*-------- Banner Section -------*/
+.banner-section h1{
+  font-weight: 500;
+}
+.banner-section .wp-block-button{
+  border: 2px solid #fff;
+  width: max-content;
+  width: -moz-max-content;
+  transform: skew(-20deg);
+  margin-top: 20px !Important;
+}
+.banner-section .block-editor-rich-text__editable.wp-block-button__link{
+  display: inline-block;
+  transform: skew(-0deg);
+  position: relative;
+  top: -9px;
+  left: -11px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 0px !important;
+}
+.banner-section .block-editor-rich-text__editable.wp-block-button__link:hover{
+  background-color: #151821 !important;
+}
+
+/*---- game Section -----*/
+.game-section figure.block-editor-block-list__block, .game-section h2, .game-section h3 {
+	margin-bottom: 20px !important;
+	margin-top: 0 !important;
+}
+.game-section figure{
+  display: block !important;
+}

@@ -1,0 +1,20 @@
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.header-cart-inner .cart-contents i {
+	float:left;
+}
+.cart-contents span.count {
+	top: -15px;
+}
+
+select.woo-product-search-select {
+	background: transparent url("images/arrow.png") no-repeat scroll 25% 18px;
+}
+
+.top-bar-left li .fa {
+    padding-left: 10px;
+	padding-right: 0px;
+}

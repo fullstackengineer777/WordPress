@@ -1,0 +1,118 @@
+#customize-controls .control-section-storefront-ecommerce .accordion-section-title:hover,
+#customize-controls .control-section-storefront-ecommerce .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-storefront-ecommerce .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-storefront-ecommerce .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+.accordion-section-title .button, .accordion-section-title .button-secondary {
+  background: #0073aa;
+  font-size: 12px;
+  font-weight: bold !important;
+  color: #fff;
+}
+/* ---------Excerpt & Logo --------- */
+input#_customize-input-storefront_ecommerce_excerpt_number,
+input#_customize-input-logo_size, 
+input#_customize-input-storefront_ecommerce_slider_excerpt_number,
+input#_customize-input-storefront_ecommerce_about_excerpt_number,
+input#_customize-input-storefront_ecommerce_post_featured_image_custom_width,
+input#_customize-input-storefront_ecommerce_post_featured_image_custom_height,
+input#_customize-input-storefront_ecommerce_custom_post_color_width,
+input#_customize-input-storefront_ecommerce_custom_post_color_height{
+  width: 100%;
+}
+#customize-controls img {
+  border: solid 2px #FFBD27;
+  margin-bottom: 10px;
+}
+.customize-control-title {
+  font-size: 16px;
+  color: #0073aa;
+}
+#customize-save-button-wrapper input#save, #customize-save-button-wrapper button#publish-settings {
+  color: #fff;
+  border-radius: 0;
+  font-size: 12px;
+}
+/* ---------FontAwesome Icon Styles--------- */
+.type-icon{
+  overflow: hidden;
+}
+.selected-icon{
+  background: #fff;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #EEE;
+  position: relative;
+  margin-right: 45px;
+  cursor: pointer;
+  font-size: 28px;
+  width: 50px;
+}
+.selected-icon .fa{
+  display: block;
+  line-height: 45px;
+  background: #fff;
+}
+.selected-icon span{
+  position: absolute;
+  background: #fff;
+  right: -45px;
+  top: -1px;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EEE;
+  font-size: 20px;
+}
+.icon-list{
+  height: 215px;
+  overflow-y: scroll;
+  font-size: 18px;
+  border: 1px solid #EEE;
+  background: #fff;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 4%;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.icon-list li{
+  float: left;
+  margin: 4% 3% 0;
+  height: 40px;
+  width: 16%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #EEE;  
+}
+.icon-list li:hover{
+  background: #333;
+  border: 1px solid #333;
+  color: #FFF;
+}
+.icon-list li.icon-active{
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #FFF;
+}
+.storefront-ecommerce-social-class{
+  display: none;
+}
+.socialInput{
+  padding: 10px;
+  font-size: 16px;
+}

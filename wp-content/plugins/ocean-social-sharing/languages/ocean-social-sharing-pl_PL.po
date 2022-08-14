@@ -1,0 +1,255 @@
+# Copyright (C) 2016 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2020-03-17 22:21+0100\n"
+"PO-Revision-Date: 2020-03-17 22:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: OceanWP\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _esc_attr__;esc_attr_x;esc_attr_e;esc_html__;"
+"esc_html_e;esc_html_x;__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ocean-social-sharing.php:132 ocean-social-sharing.php:141
+msgid "Cheatin&#8217; huh?"
+msgstr "Oszukujemy&#8217; co?"
+
+#: ocean-social-sharing.php:207
+msgid "Social Sharing"
+msgstr "Udostępnianie publiczne"
+
+#: ocean-social-sharing.php:232
+msgid "Sharing Buttons"
+msgstr "Przyciski udostępniania"
+
+#: ocean-social-sharing.php:260
+msgid "Position"
+msgstr ""
+
+#: ocean-social-sharing.php:266
+msgid "Before the Content"
+msgstr ""
+
+#: ocean-social-sharing.php:267
+msgid "After the Content"
+msgstr ""
+
+#: ocean-social-sharing.php:268
+msgid "Before & After the Content"
+msgstr ""
+
+#: ocean-social-sharing.php:269
+msgid "No Buttons in the Content"
+msgstr ""
+
+#: ocean-social-sharing.php:283
+msgid "Add Social Name"
+msgstr ""
+
+#: ocean-social-sharing.php:294
+msgid "Please Share This"
+msgstr "Proszę udostępnij to"
+
+#: ocean-social-sharing.php:300
+#, fuzzy
+#| msgid "Sharing Buttons"
+msgid "Sharing Heading"
+msgstr "Przyciski udostępniania"
+
+#: ocean-social-sharing.php:317
+#, fuzzy
+#| msgid "Heading on Posts"
+msgid "Heading Position"
+msgstr "Nagłówek posta"
+
+#: ocean-social-sharing.php:323
+msgid "Side"
+msgstr ""
+
+#: ocean-social-sharing.php:324
+msgid "Top"
+msgstr ""
+
+#: ocean-social-sharing.php:337
+#, fuzzy
+#| msgid "Twitter Handle"
+msgid "Twitter Username"
+msgstr "Nazwa użytkownika na Twitter'ze"
+
+#: ocean-social-sharing.php:352
+msgid "Styling"
+msgstr ""
+
+#: ocean-social-sharing.php:367
+msgid "Style"
+msgstr ""
+
+#: ocean-social-sharing.php:373
+msgid "Minimal"
+msgstr ""
+
+#: ocean-social-sharing.php:374
+msgid "Colored"
+msgstr ""
+
+#: ocean-social-sharing.php:375
+msgid "Dark"
+msgstr ""
+
+#: ocean-social-sharing.php:388
+msgid "Border Radius"
+msgstr ""
+
+#: ocean-social-sharing.php:389
+msgid "Add a custom border radius. px - em - %."
+msgstr ""
+
+#: ocean-social-sharing.php:405
+#, fuzzy
+#| msgid "Links Borders Color"
+msgid "Minimal Style: Borders Color"
+msgstr "Kolor obramowania linku"
+
+#: ocean-social-sharing.php:420
+#, fuzzy
+#| msgid "Icons Background Color"
+msgid "Minimal Style: Background Color"
+msgstr "Kolor tła ikony"
+
+#: ocean-social-sharing.php:435
+msgid "Minimal Style: Color"
+msgstr ""
+
+#: template/social-share.php:69
+#, fuzzy
+#| msgid "Share on Pinterest"
+msgid "Share this content"
+msgstr "Udostępnij na Pinterest"
+
+#: template/social-share.php:75
+msgid "Available sharing options"
+msgstr ""
+
+#: template/social-share.php:100
+msgid "Share on Twitter"
+msgstr "Udostępnij na Twitter'ze"
+
+#: template/social-share.php:101 template/social-share.php:124
+#: template/social-share.php:148 template/social-share.php:175
+#: template/social-share.php:205 template/social-share.php:231
+#: template/social-share.php:275 template/social-share.php:298
+#: template/social-share.php:334 template/social-share.php:362
+#: template/social-share.php:396
+msgid "Opens in a new window"
+msgstr ""
+
+#: template/social-share.php:111
+msgid "Twitter"
+msgstr "Twitter"
+
+#: template/social-share.php:123
+msgid "Share on Facebook"
+msgstr "Udostępnij na Facebook'u"
+
+#: template/social-share.php:135
+msgid "Facebook"
+msgstr "Facebook"
+
+#: template/social-share.php:147
+#, fuzzy
+#| msgid "Share on Google+"
+msgid "Share on Google plus"
+msgstr "Udostępnij na Google+"
+
+#: template/social-share.php:162
+msgid "Google+"
+msgstr "Google+"
+
+#: template/social-share.php:174
+msgid "Share on Pinterest"
+msgstr "Udostępnij na Pinterest"
+
+#: template/social-share.php:192
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: template/social-share.php:204
+msgid "Share on LinkedIn"
+msgstr "Udostępnij na LinkedIn"
+
+#: template/social-share.php:218
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: template/social-share.php:230
+msgid "Share on Viber"
+msgstr "Udostępnij na Viber"
+
+#: template/social-share.php:262
+msgid "Viber"
+msgstr "Viber"
+
+#: template/social-share.php:274
+msgid "Share on VK"
+msgstr "Udostępnij na VK"
+
+#: template/social-share.php:285
+msgid "VK"
+msgstr "VK"
+
+#: template/social-share.php:297
+msgid "Share on Reddit"
+msgstr "Udostępnij na Reddit"
+
+#: template/social-share.php:321
+msgid "Reddit"
+msgstr "Reddit"
+
+#: template/social-share.php:333
+msgid "Share on Tumblr"
+msgstr "Udostępnij na Tumblr"
+
+#: template/social-share.php:349
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: template/social-share.php:361
+msgid "Share on Viadeo"
+msgstr "Udostępnij na Viadeo"
+
+#: template/social-share.php:383
+msgid "Viadeo"
+msgstr "Viadeo"
+
+#: template/social-share.php:395
+msgid "Share on WhatsApp"
+msgstr "Udostępnij na WhatsApp"
+
+#: template/social-share.php:416
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#~ msgid ""
+#~ "Ocean Social Sharing requires that you use ocean as your parent theme."
+#~ msgstr ""
+#~ "Ocean Social Sharing wymaga żebyś używał OceanWP jako głównego motywu."
+
+#~ msgid "Install Ocean Now"
+#~ msgstr "Zainstaluj OceanWP"
+
+#~ msgid "Icons Color"
+#~ msgstr "Kolor ikony"

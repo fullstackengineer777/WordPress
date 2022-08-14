@@ -1,0 +1,79 @@
+/*-------- Banner Section -------*/
+.banner-section{
+  width: auto;
+  height: auto;
+}
+.banner-section .wp-block-button{
+  border: 2px solid #fff;
+  width: max-content;
+  width: -moz-max-content;
+  transform: skew(-20deg);
+}
+.banner-section .wp-block-button__link{
+  display: inline-block;
+  transform: skew(-0deg);
+  position: relative;
+  top: -9px;
+  left: -11px;
+  border-radius: 0px !important;
+}
+.banner-section .wp-block-button__link:hover{
+  background-color: #151821 !important;
+}
+
+/*----- Game Section -----*/
+.game-box{
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+.game-box:before {
+  content: '';
+  border: 1px solid #fff;
+  transform: scaleY(0);
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  bottom: 12px;
+  right: 12px;
+  z-index: 1;
+  transition: all 0.5s ease 0s;
+}
+.game-box:hover:before {
+  transform: scaleY(1);
+}
+.game-box img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease 0s;
+}
+.game-box:hover img {
+  opacity: 0.2;
+  transform: scale(1.1);
+  transform-origin: left top;
+}
+.game-box .game-content {
+  text-align: center;
+  width: 90%;
+  filter: blur(5px);
+  opacity: 0;
+  transform: translateX(-50%) translateY(50%);
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  z-index: 2;
+  transition: all 0.5s ease 0.2s;
+}
+.game-box:hover .game-content {
+  filter: blur(0);
+  opacity: 1;
+}
+#content-vw img {
+  box-shadow: none !important;
+}
+/*---- Media css -----*/
+@media screen and (max-width: 768px) and (min-width: 576px){
+  .banner-section .wp-block-column:first-child{
+    flex-basis: 70% !important;
+  }
+}
